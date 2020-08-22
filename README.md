@@ -1,6 +1,9 @@
 ReShade Unlocked
 =======
 
+| :warning: | This is a custom ReShade build that disables the network activity detection. It has an unlocked depth buffer that allows some of ReShade’s shaders (that uses depth information) to work in any games. DO NOT use it on multiplayer games. |
+| - | :- |
+
 This is a generic post-processing injector for games and video software. It exposes an automated way to access both frame color and depth information and a custom shader language called ReShade FX to write effects like ambient occlusion, depth of field, color correction and more which work everywhere.
 
 The ReShade FX shader compiler contained in this repository is standalone, so can be integrated into other projects as well. Simply add all `source/effect_*.*` files to your project and use it similar to the [fxc example](tools/fxc.cpp).
